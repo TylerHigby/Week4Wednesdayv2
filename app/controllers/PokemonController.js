@@ -12,9 +12,6 @@ function drawPokemon() {
   }).join(''))
 }
 
-function drawMyPokemon() {
-
-}
 
 function drawNext() {
   const button = document.getElementById('next')
@@ -45,7 +42,6 @@ export class PokemonController {
     this.getPokemons()
     AppState.on('account', this.getMyPokemons)
     AppState.on('pokemon', drawPokemon)
-    AppState.on('myPokemon', drawMyPokemon)
     AppState.on('next', drawNext)
     AppState.on('previous', drawPrevious)
 

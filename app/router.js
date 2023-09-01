@@ -19,7 +19,7 @@ export const router = [
           <button class="btn btn-secondary" id='previous' disabled onclick="app.PokemonController.go('previous')">Previous</button>
           <button class="btn btn-secondary" id='next' disabled onclick="app.PokemonController.go('next')">Next</button>
         </div>
-        <div id='pokemon'></div>
+        <div id='pokemon'>drawhere</div>
       </div>
       <div id='myPokemon'></div>
         
